@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Self Healing Automation Suite">
+
+    <listeners>
+        <listener class-name="com.selfhealing.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <test name="Automation Tests">
+
+        <classes>
+            <class name="com.selfhealing.tests.LoginTest"/>
+            <class name="com.selfhealing.tests.SelfHealingTest"/>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,7 @@
+target/
+.DS_Store
+.idea/
+.vscode/
+*.class
+logs/*.log
+test-run.log
